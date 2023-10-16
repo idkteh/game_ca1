@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 673829528}
   - component: {fileID: 673829527}
   - component: {fileID: 673829526}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2866,6 +2866,37 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &704336692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704336693}
+  m_Layer: 0
+  m_Name: ground_check
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &704336693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704336692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.496, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1991669323}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1892385703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,7 +2978,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e21110c256c6bbb4085926ef9c9845fc, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2957,7 +2988,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &1991669321
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3058,7 +3089,8 @@ Transform:
   m_LocalPosition: {x: -1.397, y: -0.378, z: 0}
   m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 704336693}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1991669324
@@ -3075,6 +3107,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   jump_height: 2
+  ground_layer:
+    serializedVersion: 2
+    m_Bits: 8
+  check_for_ground: {fileID: 704336693}
+  check_for_ground_rad: 0.0225
   body: {fileID: 1991669320}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
