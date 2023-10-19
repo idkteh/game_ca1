@@ -1,0 +1,1162 @@
+fileFormatVersion: 2
+guid: aa564cb0a7faf074bbeab268f03c1d21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8074667005333444603
+    second: dadish_no_letter_0
+  - first:
+      213: 3173963639445727327
+    second: dadish_no_letter_1
+  - first:
+      213: -8196267317890793613
+    second: dadish_no_letter_2
+  - first:
+      213: -8191013130998816409
+    second: dadish_no_letter_3
+  - first:
+      213: 4665509752665835859
+    second: dadish_no_letter_4
+  - first:
+      213: 1905792266028631464
+    second: dadish_no_letter_5
+  - first:
+      213: -6490158448529068674
+    second: dadish_no_letter_6
+  - first:
+      213: -1860775414091862665
+    second: dadish_no_letter_7
+  - first:
+      213: -6389455681147146298
+    second: dadish_no_letter_8
+  - first:
+      213: 3310523990033888870
+    second: dadish_no_letter_9
+  - first:
+      213: 5274447175593372969
+    second: dadish_no_letter_10
+  - first:
+      213: 9197167969969556538
+    second: dadish_no_letter_11
+  - first:
+      213: 7688628964619884230
+    second: dadish_no_letter_12
+  - first:
+      213: 8495662634515111026
+    second: dadish_no_letter_13
+  - first:
+      213: -5658844063054086529
+    second: dadish_no_letter_14
+  - first:
+      213: -5568067649589715355
+    second: dadish_no_letter_15
+  - first:
+      213: -1381590215210339382
+    second: dadish_no_letter_16
+  - first:
+      213: 5212454262432307625
+    second: dadish_no_letter_17
+  - first:
+      213: 4796578316577517514
+    second: dadish_no_letter_18
+  - first:
+      213: -6527895441823044209
+    second: dadish_no_letter_19
+  - first:
+      213: -4947001024795793331
+    second: dadish_no_letter_20
+  - first:
+      213: 4012656265550356458
+    second: dadish_no_letter_21
+  - first:
+      213: -2530712873944170824
+    second: dadish_no_letter_22
+  - first:
+      213: 8840552642742145448
+    second: dadish_no_letter_23
+  - first:
+      213: -114325899782225306
+    second: dadish_no_letter_24
+  - first:
+      213: 8739524798554576996
+    second: dadish_no_letter_25
+  - first:
+      213: 9131483257716034874
+    second: dadish_no_letter_26
+  - first:
+      213: 7835968643975162294
+    second: dadish_no_letter_27
+  - first:
+      213: 7362978993402964151
+    second: dadish_no_letter_28
+  - first:
+      213: -1173310204316696396
+    second: dadish_no_letter_29
+  - first:
+      213: -1603156182398035333
+    second: dadish_no_letter_30
+  - first:
+      213: 7875572616216458423
+    second: dadish_no_letter_31
+  - first:
+      213: 1580075503351257734
+    second: dadish_no_letter_32
+  - first:
+      213: 8111173620955319760
+    second: dadish_no_letter_33
+  - first:
+      213: -4987067526297662476
+    second: dadish_no_letter_34
+  - first:
+      213: -6148679851944092227
+    second: dadish_no_letter_35
+  - first:
+      213: 2980507428147669183
+    second: dadish_no_letter_36
+  - first:
+      213: 6287299084085561188
+    second: dadish_no_letter_37
+  - first:
+      213: 8389497806323091038
+    second: dadish_no_letter_38
+  - first:
+      213: -8856563782364725699
+    second: dadish_no_letter_39
+  - first:
+      213: -2533924458907884505
+    second: dadish_no_letter_40
+  - first:
+      213: 2377187141289638834
+    second: dadish_no_letter_41
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dadish_no_letter_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 231
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf797742cdafe0070800000000000000
+      internalID: 8074667005333444603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 231
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f582b2b1d1f2c0c20800000000000000
+      internalID: 3173963639445727327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 231
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fb9f0dc42014e80800000000000000
+      internalID: -8196267317890793613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 231
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761614884fca35e80800000000000000
+      internalID: -8191013130998816409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 231
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35984cfa6683fb040800000000000000
+      internalID: 4665509752665835859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 201
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5c258f7fbb27a10800000000000000
+      internalID: 1905792266028631464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 202
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dac6307435ee5a0800000000000000
+      internalID: -6490158448529068674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 203
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d2644ae923d26e0800000000000000
+      internalID: -1860775414091862665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 202
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf6f1929e71457a0800000000000000
+      internalID: -6389455681147146298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 201
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666f06e670851fd20800000000000000
+      internalID: 3310523990033888870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 201
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d2ecfc2c9923940800000000000000
+      internalID: 5274447175593372969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cc2ad3a87e2af70800000000000000
+      internalID: 9197167969969556538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 171
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c692f5ae4f73ba60800000000000000
+      internalID: 7688628964619884230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 172
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c15d57728a6e570800000000000000
+      internalID: 8495662634515111026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 171
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e35567e4fb771b0800000000000000
+      internalID: -5658844063054086529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e5cdc39ff3ab2b0800000000000000
+      internalID: -5568067649589715355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 171
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac37b3de40b93dce0800000000000000
+      internalID: -1381590215210339382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a99f30f88b565840800000000000000
+      internalID: 5212454262432307625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 143
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfa1f8c09ed09240800000000000000
+      internalID: 4796578316577517514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8dee339ea14865a0800000000000000
+      internalID: -6527895441823044209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 143
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48ad8d37c8b85bb0800000000000000
+      internalID: -4947001024795793331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefdfd11d91dfa730800000000000000
+      internalID: 4012656265550356458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bebc08ac0a11ecd0800000000000000
+      internalID: -2530712873944170824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 85
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a159c01ac3ffaa70800000000000000
+      internalID: 8840552642742145448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 83
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6628ada2335d96ef0800000000000000
+      internalID: -114325899782225306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 84
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46810931087094970800000000000000
+      internalID: 8739524798554576996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_26
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 84
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d479864ab89be70800000000000000
+      internalID: 9131483257716034874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 86
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b92d3707f3febc60800000000000000
+      internalID: 7835968643975162294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 86
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8627e326e8e2660800000000000000
+      internalID: 7362978993402964151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 85
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0cc5ce59097bfe0800000000000000
+      internalID: -1173310204316696396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 85
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a91bc22f170c9e0800000000000000
+      internalID: -1603156182398035333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 55
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b430606197ab4d60800000000000000
+      internalID: 7875572616216458423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 55
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a5c877c4e8de510800000000000000
+      internalID: 1580075503351257734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 55
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd8f84fe6da09070800000000000000
+      internalID: 8111173620955319760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 55
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb4428e1806acab0800000000000000
+      internalID: -4987067526297662476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 55
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd554370408baaa0800000000000000
+      internalID: -6148679851944092227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_36
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 55
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8a729e6b3ec5920800000000000000
+      internalID: 2980507428147669183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4670f879439f04750800000000000000
+      internalID: 6287299084085561188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 28
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e568ecd2ecb7d6470800000000000000
+      internalID: 8389497806323091038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_39
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 28
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e7f8df92a271580800000000000000
+      internalID: -8856563782364725699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7242f134121b5dcd0800000000000000
+      internalID: -2533924458907884505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dadish_no_letter_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbf1313c177df020800000000000000
+      internalID: 2377187141289638834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 484b45d5f15aa70408eaf6a4b0f8b953
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dadish_no_letter_0: 8074667005333444603
+      dadish_no_letter_1: 3173963639445727327
+      dadish_no_letter_10: 5274447175593372969
+      dadish_no_letter_11: 9197167969969556538
+      dadish_no_letter_12: 7688628964619884230
+      dadish_no_letter_13: 8495662634515111026
+      dadish_no_letter_14: -5658844063054086529
+      dadish_no_letter_15: -5568067649589715355
+      dadish_no_letter_16: -1381590215210339382
+      dadish_no_letter_17: 5212454262432307625
+      dadish_no_letter_18: 4796578316577517514
+      dadish_no_letter_19: -6527895441823044209
+      dadish_no_letter_2: -8196267317890793613
+      dadish_no_letter_20: -4947001024795793331
+      dadish_no_letter_21: 4012656265550356458
+      dadish_no_letter_22: -2530712873944170824
+      dadish_no_letter_23: 8840552642742145448
+      dadish_no_letter_24: -114325899782225306
+      dadish_no_letter_25: 8739524798554576996
+      dadish_no_letter_26: 9131483257716034874
+      dadish_no_letter_27: 7835968643975162294
+      dadish_no_letter_28: 7362978993402964151
+      dadish_no_letter_29: -1173310204316696396
+      dadish_no_letter_3: -8191013130998816409
+      dadish_no_letter_30: -1603156182398035333
+      dadish_no_letter_31: 7875572616216458423
+      dadish_no_letter_32: 1580075503351257734
+      dadish_no_letter_33: 8111173620955319760
+      dadish_no_letter_34: -4987067526297662476
+      dadish_no_letter_35: -6148679851944092227
+      dadish_no_letter_36: 2980507428147669183
+      dadish_no_letter_37: 6287299084085561188
+      dadish_no_letter_38: 8389497806323091038
+      dadish_no_letter_39: -8856563782364725699
+      dadish_no_letter_4: 4665509752665835859
+      dadish_no_letter_40: -2533924458907884505
+      dadish_no_letter_41: 2377187141289638834
+      dadish_no_letter_5: 1905792266028631464
+      dadish_no_letter_6: -6490158448529068674
+      dadish_no_letter_7: -1860775414091862665
+      dadish_no_letter_8: -6389455681147146298
+      dadish_no_letter_9: 3310523990033888870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
