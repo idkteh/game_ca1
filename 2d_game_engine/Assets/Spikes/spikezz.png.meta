@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: eba26b1ac4ecbe5479194f8d4ce70546
+guid: a92d63aa8ed40084196691b7d4876f94
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3389922759253446079
-    second: 1000017164_0
+      213: 705784872248216833
+    second: spikezz_0
+  - first:
+      213: -4841968882643942551
+    second: spikezz_1
+  - first:
+      213: 8861848582017808510
+    second: spikezz_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -74,7 +80,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -98,7 +104,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1000017164_0
+      name: spikezz_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d03361a937bc900800000000000000
+      internalID: 705784872248216833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikezz_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963438084feddccb0800000000000000
+      internalID: -4841968882643942551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikezz_2
       rect:
         serializedVersion: 2
         x: 0
@@ -106,14 +154,35 @@ TextureImporter:
         width: 14
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 142bfa6063394f0d0800000000000000
-      internalID: -3389922759253446079
+      spriteID: e787870555c9bfa70800000000000000
+      internalID: 8861848582017808510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spikezz_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18f26e6deea8904c8653f5093c5790b
+      internalID: 1937622206
       vertices: []
       indices: 
       edges: []
@@ -121,14 +190,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6779f9a3a9101f94aba253f37982526a
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spikezz_0: 705784872248216833
+      spikezz_1: -4841968882643942551
+      spikezz_2: 8861848582017808510
+      spikezz_3: 1937622206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

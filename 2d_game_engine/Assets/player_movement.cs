@@ -39,4 +39,20 @@ public class player_movement : MonoBehaviour
         body.velocity = new Vector2(body.velocity.x,jump_height); // setting the the velocity, keeps the x axis and changes y axis to whatever jump_height is
 
     }
+
+    public void reset_player()
+    {
+        body.velocityX = 0;   //stops player movement
+        body.velocityY = 0;   
+        transform.position = new Vector3 (-1.264f,-0.517f, 0); //teleports player to starting position
+    }
+ 
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.tag == "spike") //if the colider colides with the collision box named spike my poor raddish dies 
+        {
+            reset_player();
+        }
+
+    }
 }
