@@ -11,8 +11,11 @@ public class player_movement : MonoBehaviour
     public Transform check_for_ground;
     public float check_for_ground_rad = 0.2f;
     private bool grounded;
+    private bool double_jump;
+    public game_man7 game_manager;
 
     public Rigidbody2D body; //creating
+    public SpriteRenderer sprite; //reference to the render
                              
     // Start is called before the first frame update
     void Start()
@@ -27,12 +30,43 @@ public class player_movement : MonoBehaviour
        grounded = Physics2D.OverlapCircle(check_for_ground.position, check_for_ground_rad,ground_layer); //checks if character is on ground, uses overlap circle on character
        
         float horizontalInput = Input.GetAxisRaw("Horizontal"); // collects input from left/right arrow or a/d
+
+        if (horizontalInput < 0) //if it's facing left, flip sprite, else don't flips
+        {
+            sprite.flipX = true;
+        }else if(horizontalInput> 0)
+        {
+            sprite.flipX = false;
+        }
+        
+        if(grounded)
+        {
+            double_jump = true; //everytime you on ground, double_jump resets
+        }
+
         body.velocity = new Vector2 (horizontalInput*speed,body.velocity.y ); // setting the velocity, whatever the input is * speed, not changing the y axis
-        if (Input.GetKey(KeyCode.Space)&&grounded) //checks if we use space
+        
+       
+
+
+    if (transform.position.y < -4.75)
+        {
+            reset_player();
+        }
+   }
+
+    private void Update() //runs differently than fixedupdate
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && grounded) //checks if we use space and is grounded
         {
             Jump();
         }
-   }
+        else if (Input.GetKeyDown(KeyCode.Space) && double_jump) //checks if you've used space and you have double jump left
+        {
+            Jump();
+            double_jump = false; //can't do more
+        }
+    }
 
     private void Jump()
     {
@@ -40,11 +74,13 @@ public class player_movement : MonoBehaviour
 
     }
 
+
     public void reset_player()
     {
         body.velocityX = 0;   //stops player movement
         body.velocityY = 0;   
         transform.position = new Vector3 (-1.264f,-0.517f, 0); //teleports player to starting position
+        game_manager.reset_game();
     }
  
     void OnCollisionEnter2D(Collision2D coll)
@@ -54,5 +90,13 @@ public class player_movement : MonoBehaviour
             reset_player();
         }
 
+    }
+    private void OnTriggerEnter2D(Collider2D collision) //checks collsions with object that trigger on
+    {
+       if(collision.gameObject.tag == "key")
+        {
+            game_manager.getKey(); //if we touch key then we run key method
+
+        }
     }
 }
