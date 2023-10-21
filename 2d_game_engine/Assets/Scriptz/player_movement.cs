@@ -97,6 +97,9 @@ public class player_movement : MonoBehaviour
         {
             game_manager.getKey(); //if we touch key then we run key method
 
+        }else if(collision.gameObject.tag == "kiddo")
+        {
+            game_manager.win();
         }
     }
 }
