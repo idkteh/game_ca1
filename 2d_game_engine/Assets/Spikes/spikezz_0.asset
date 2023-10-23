@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: spikezz_0
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 705784872248216833, guid: a92d63aa8ed40084196691b7d4876f94, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8679245, g: 0.12609467, b: 0.5411765, a: 1}
   m_Transform:
     e00: 1
     e01: 0

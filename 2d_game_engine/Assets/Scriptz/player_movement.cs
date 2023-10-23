@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
+using UnityEngine.Rendering; 
 
 public class player_movement : MonoBehaviour
 {
@@ -20,7 +20,8 @@ public class player_movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        body = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -31,11 +32,13 @@ public class player_movement : MonoBehaviour
        
         float horizontalInput = Input.GetAxisRaw("Horizontal"); // collects input from left/right arrow or a/d
 
+        //Debug.Log(horizontalInput);
         if (horizontalInput < 0) //if it's facing left, flip sprite, else don't flips
         {
             sprite.flipX = true;
         }else if(horizontalInput> 0)
         {
+            
             sprite.flipX = false;
         }
         
@@ -63,15 +66,16 @@ public class player_movement : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Space) && double_jump) //checks if you've used space and you have double jump left
         {
-            Jump();
             double_jump = false; //can't do more
+            Jump();
+            
         }
     }
 
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x,jump_height); // setting the the velocity, keeps the x axis and changes y axis to whatever jump_height is
-
+        //Debug.Log("Jump," + double_jump);
     }
 
 
