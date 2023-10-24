@@ -8,13 +8,16 @@ public class game_man7 : MonoBehaviour
     [HideInInspector]public bool key;
     [HideInInspector] public int coin;
     public wall wall;
-    
+    public UI_man8 ui_man;
+
+
     public void reset_game()
     {
         key = false;
         coin = 0;
         the_key.reset_key();
         wall.reset_wall();
+        ui_man.reset_ui();
     }
     
     public void win()
@@ -26,6 +29,7 @@ public class game_man7 : MonoBehaviour
         key = true;
         the_key.collect();             //when we get key, key gets hidden
         wall.destroy_wall();           // wal gets destroyed
+        ui_man.getKey();
     }
     void Start()
     {

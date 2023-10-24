@@ -380,8 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2bf2e70040dc8f47ba07ed882d845f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keycon: {fileID: 0}
-  manager: {fileID: 0}
+  keycon: {fileID: 570767376}
 --- !u!4 &251665491
 Transform:
   m_ObjectHideFlags: 0
@@ -542,7 +541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07167b48cf78ee64c9830ffa7953c0e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  is_collected: 0
   sprite: {fileID: 379583603}
 --- !u!95 &379583606
 Animator:
@@ -750,7 +748,7 @@ GameObject:
   - component: {fileID: 570767377}
   - component: {fileID: 570767376}
   m_Layer: 5
-  m_Name: Image
+  m_Name: key_con
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4965,7 +4963,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -60, y: -3, z: 0}
+  - first: {x: -61, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 17
@@ -7865,8 +7863,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -73, y: -14, z: 0}
-  m_Size: {x: 118, y: 26, z: 1}
+  m_Origin: {x: -397, y: -14, z: 0}
+  m_Size: {x: 442, y: 34, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -8045,6 +8043,7 @@ MonoBehaviour:
   key: 0
   coin: 0
   wall: {fileID: 1753585499}
+  ui_man: {fileID: 251665490}
 --- !u!4 &846725748
 Transform:
   m_ObjectHideFlags: 0
@@ -11417,8 +11416,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -7, y: -2, z: 0}
-  m_Size: {x: 14, y: 6, z: 1}
+  m_Origin: {x: -31, y: -2, z: 0}
+  m_Size: {x: 38, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:

@@ -5,17 +5,21 @@ using UnityEngine.UI;
 
 public class UI_man8 : MonoBehaviour
 {
-    public Image keycon; //key icon
-    public game_man7 manager; 
+    public Image keycon; //key icon 
    
-    void Start()
+    public void reset_ui()
     {
-        
+        keycon.enabled = true;
     }
 
-  
-    void Update()
+    private void Start()
     {
-        
+        reset_ui();
     }
+
+    public void getKey()
+    {
+        keycon.enabled = false;  
+    }
+    
 }
