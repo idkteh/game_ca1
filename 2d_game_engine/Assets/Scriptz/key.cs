@@ -9,15 +9,15 @@ public class key : MonoBehaviour
     
     public void collect()
     {
-        is_collected = true;
-        sprite.enabled = false;
+        is_collected = true;                     
+        sprite.enabled = false;                  // hides sprite
 
     }
 
     public void reset_key()
     {
         is_collected=false;
-        sprite.enabled = true;  
+        sprite.enabled = true;                  // turns sprite back on
     }
     void Start()
     {

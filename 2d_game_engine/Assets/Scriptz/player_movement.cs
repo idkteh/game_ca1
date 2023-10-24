@@ -54,7 +54,7 @@ public class player_movement : MonoBehaviour
 
     if (transform.position.y < -4.75)
         {
-            reset_player();
+            reset_player();   //if player falls from the level it resets position 
         }
    }
 
@@ -66,7 +66,7 @@ public class player_movement : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Space) && double_jump) //checks if you've used space and you have double jump left
         {
-            double_jump = false; //can't do more
+            double_jump = false; //can't do more double jumps
             Jump();
             
         }
@@ -74,7 +74,7 @@ public class player_movement : MonoBehaviour
 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x,jump_height); // setting the the velocity, keeps the x axis and changes y axis to whatever jump_height is
+        body.velocity = new Vector2(body.velocity.x,jump_height);    // setting the velocity - speed, keeps the x axis and changes y axis to whatever jump_height is
         //Debug.Log("Jump," + double_jump);
     }
 
@@ -103,7 +103,7 @@ public class player_movement : MonoBehaviour
 
         }else if(collision.gameObject.tag == "kiddo")
         {
-            game_manager.win();
+            game_manager.win();      //if we reach the kid we win
         }
     }
 }

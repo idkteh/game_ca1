@@ -24,8 +24,8 @@ public class game_man7 : MonoBehaviour
     public void getKey()
     {
         key = true;
-        the_key.collect();
-        wall.destroy_wall();
+        the_key.collect();             //when we get key, key gets hidden
+        wall.destroy_wall();           // wal gets destroyed
     }
     void Start()
     {
