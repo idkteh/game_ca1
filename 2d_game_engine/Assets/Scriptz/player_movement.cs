@@ -16,10 +16,10 @@ public class player_movement : MonoBehaviour
     public audio_player play_audio;
     private bool can_move = true;
 
-    public Rigidbody2D body; //creating
-    public SpriteRenderer sprite; //reference to the render
+    public Rigidbody2D body;                             // reference to rigidbody
+    public SpriteRenderer sprite;                        // reference to the render
                              
-    // Start is called before the first frame update
+    
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -35,14 +35,14 @@ public class player_movement : MonoBehaviour
             float horizontalInput = Input.GetAxisRaw("Horizontal"); // collects input from left/right arrow or a/d
 
             //Debug.Log(horizontalInput);
-            if (horizontalInput < 0) //if it's facing left, flip sprite, else don't flips
+            if (horizontalInput < 0) //if it's facing left, flip sprite, else don't flip
             {
                 sprite.flipX = true;
             }
             else if (horizontalInput > 0)
             {
 
-                sprite.flipX = false;
+                sprite.flipX = false;        
             }
 
             if (grounded)
@@ -107,17 +107,17 @@ public class player_movement : MonoBehaviour
     {
        if(collision.gameObject.tag == "key")
         {
-            game_manager.getKey(); //if we touch key then we run key method
+            game_manager.getKey(); //if we touch key then we run getKey method
             play_audio.play_sound("key");
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);   this was meant to disable particles but it makes the game severly easier so i rather keep it out
 
         }
-        else if(collision.gameObject.tag == "kiddo")
+        else if(collision.gameObject.tag == "kiddo")         
         {
             game_manager.win();      //if we reach the kid we win
             body.velocityY = 0;
-            body.velocityX = 0;
-            can_move = false;
-        }
+            body.velocityX = 0;      // stops movement so the player won't be able to do any shennanigans after winning
+            can_move = false;        // stops the whole code
+        } 
     }
 }
