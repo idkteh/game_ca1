@@ -9,6 +9,7 @@ public class game_man7 : MonoBehaviour
     [HideInInspector] public int coin;
     public wall wall;
     public UI_man8 ui_man;
+   
 
 
     public void reset_game()
@@ -23,6 +24,7 @@ public class game_man7 : MonoBehaviour
     public void win()
     {
         Debug.Log("we did it joe"); //CHANGE IT
+        ui_man.WIN();
     }
     public void getKey()
     {
@@ -36,9 +38,5 @@ public class game_man7 : MonoBehaviour
         reset_game();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
